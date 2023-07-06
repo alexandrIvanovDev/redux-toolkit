@@ -1,6 +1,5 @@
 import React from 'react';
-import {postAPI} from '../services/UserService';
-import {PostItem} from './PostItem';
+import {postAPI} from '../services/PostService';
 
 export const PostsList2 = () => {
 
@@ -11,7 +10,7 @@ export const PostsList2 = () => {
             <div className='post-wrapper'>
                 {isLoading && <h2>Идет загрузка постов...</h2>}
                 {error && <h2>Произошла ошибка при загрузке...</h2>}
-                {posts &&  posts.map(p => <PostItem post={p} key={p.id}/>)}
+                {/*{posts &&  posts.map(p => <PostItem post={p} key={p.id}/>)}*/}
             </div>
         </div>
     );

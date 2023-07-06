@@ -10,7 +10,7 @@ function App() {
             <UserList/>
             <div style={{display: 'flex'}}>
                 <PostsList/>
-                <PostsList2/>
+                {/*<PostsList2/>*/}
             </div>
         </div>
     );

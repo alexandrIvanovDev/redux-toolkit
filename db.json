@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 7,
+      "title": "My title"
+    },
+    {
+      "id": 8,
+      "title": "New title"
+    },
+    {
+      "title": "asdfas",
+      "body": "asdfas",
+      "id": 9
+    },
+    {
+      "title": "123",
+      "body": "123",
+      "id": 10
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

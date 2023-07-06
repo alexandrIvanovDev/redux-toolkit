@@ -12,20 +12,7 @@ const initialState: InitialStateType = {
 export const userSlice = createSlice({
     name: 'user',
     initialState,
-    reducers: {
-    //     usersFetching: (state) => {
-    //         state.isLoading = true
-    //     },
-    //     usersFetchingSuccess: (state, action: PayloadAction<Array<IUser>>) => {
-    //         state.isLoading = false
-    //         state.users = action.payload
-    //         state.error = null
-    //     },
-    //     usersFetchingError: (state, action: PayloadAction<string>) => {
-    //         state.isLoading = false
-    //         state.error = action.payload
-    //     }
-    },
+    reducers: {},
     extraReducers: builder => {
         builder.addCase(getUsers.pending, (state) => {
             state.isLoading = true
